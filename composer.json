@@ -1,8 +1,8 @@
 {
-  "name" : "los/losrouteros",
+  "name" : "zooxsmart/los-router-os",
   "description" : "LosRouterOs provides RouterOS (Mikrotik) functionality",
   "require" : {
-    "php": "~7.4.0||~8.0.0||~8.1.0",
+    "php": ">=7.4.0",
     "psr/container": "^1.0",
     "pear2/net_transmitter": "1.0.0b2",
     "zooxsmart/net_routeros": "1.0.0b7"
@@ -20,8 +20,8 @@
     "classmap" : [ "./" ]
   },
   "suggest" : {
-    "los/loslog" : "los/loslog for logging",
-    "los/losui" : "los/losui for twitter bootstrap styling, jquery, chosen and other libraries"
+    "zooxsmart/los-log" : "zooxsmart/los-log for logging",
+    "zooxsmart/los-ui" : "zooxsmart/los-ui for twitter bootstrap styling, jquery, chosen and other libraries"
   },
   "license" : "MIT",
   "type" : "library",
